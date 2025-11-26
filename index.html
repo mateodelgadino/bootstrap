@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="misestilos.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>EL PEATÓN - AVENTURA GRÁFICA</h1>
+
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#tematica">Sobre la temática</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cuento">Sobre el cuento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produccion">Proceso de producción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#codigo">Desarrollo del código</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acceso">Acceso a la aventura gráfica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#integrantes">Integrantes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Primera sección/bloque-->
+        <div class="row mt-5" id="tematica">
+            <div class="col-md-8 col-sm-12">
+                <h2>SOBRE LA TEMÁTICA</h2>
+                <p>Los alumnos de la comisión 1 debimos realizar una aplicación web en P5*js con formato de aventura
+                    gráfica interactiva con varios recorridos narrativos y finales alternativos. La comisión decidió
+                    hacer uso de cuentos del reconocido escritor estadounidense de ciencia ficción, Ray Bradbury, como
+                    punto de partida de este trabajo. En otras palabras, cada grupo debía seleccionar un cuento e
+                    imaginar y desarrollar escenarios y finales alternativos (además de los originales), donde el
+                    usuario podría "elegir" el rumbo de la historia.</p>
+            </div>
+            <div class="col-md-4 col-sm-12" id="cuento">
+                <div class="card custom-card">
+                    <img src="img/libro.jpg" class="card-img-top img-fluid"
+                        style="max-width: 200px; height: auto; margin: 0 auto;"
+                        alt="Imagen del cuento 'El Peatón' de Ray Bradbury">
+                    <div class="card-body">
+                        <h3>SOBRE EL CUENTO</h3>
+                        <p class="card-text">Mateo Delgadino y Ezequiel Lisi eligieron el cuento "El Peatón". Es un
+                            clásico de ciencia ficción que narra lo que ocurre en una noche de Noviembre de 2053 cuando
+                            el señor Leonard Mead decide ir a caminar en un contexto en que la sociedad está siendo
+                            aislada de la realidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Segunda sección/bloque-->
+        <div class="row mt-5" id="produccion">
+            <h3>PROCESO DE PRODUCCIÓN</h3>
+            <p>El proceso realizado fue el sugerido por el profe:</p>
+            <div class="accordion accordion-flush custom-accordion" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Paso 1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Primero realizar un diagrama de flujo para saber cuál sería el
+                            camino que iba a seguir nuestra aventura gráfica. El mismo debía contemplar escenas
+                            descriptivas, escenas en las que el usuario tenga que tomar una decisión y dos finales
+                            alternativos además del original.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Paso 2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">En segunda instancia, nos encargamos del desarrollo de las imágenes.
+                            Las mismas fueron realizadas con Inteligencia Artificial, tal como indicaba la consigna. En
+                            el caso nuestro hicimos uso de ChatGPT y de Gémini.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Paso 3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Implementación de los pasos 1 y 2 mediante el desarrollo del código.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Tercera sección/bloque-->
+        <div class="row mt-5" id="codigo">
+            <h3>DESARROLLO DEL CÓDIGO</h3>
+            <p>Sin entrar en muchos detalles, definimos un arreglo para imágenes y otro para los textos, de esta manera
+                nos aseguramos que cada diapositiva tenía una imagen y texto asignados.</p>
+            <p>Después nos encargamos del desarrollo de algunas funciones; una para dibujar botones y otra para
+                asignarlos a cada diapositiva.</p>
+            <p>Por último en el mousePressed hicimos una "máquina de estados" (que permitiría avanzar en la historia).
+                Esta parte del código se encarga de detectar en qué número de diapositiva estamos y, según qué botón es
+                apretado, el número de diapositiva cambia, permitiendo así la navegación entre diapositivas y que el
+                usuario pueda tomar decisiones.</p>
+        </div>
+
+        <!--Cuarta sección/bloque-->
+        <div class="row mt-5 pb-5" id="acceso">
+            <h3>ACCESO A LA AVENTURA GRÁFICA</h3>
+            <p>¡A continuación podrás ver nuestro trabajo realizado haciendo click en el botón azul!</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Click para ver la aventura gráfica
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Aventura Gráfica - El Peatón</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="P5/index.html" frameborder="0" width="100%" height="490"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 text-center" id="integrantes">
+            <h3>INTEGRANTES DEL EQUIPO</h3>
+            <p>Mateo Delgadino y Ezequiel Lisi</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
