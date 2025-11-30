@@ -71,4 +71,40 @@ h1 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 10px;
+
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .custom-card {
+        margin-top: 20px;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    
+    .row {
+        text-align: center;
+    }
+    
+    .custom-card img {
+        max-width: 100% !important;
+    }
+
+    .container {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .modal-body iframe {
+        height: 350px !important;
+    }
 }
